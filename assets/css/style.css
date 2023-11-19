@@ -200,7 +200,7 @@ h6 {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 100px;
 }
 
 /*--------------------------------------------------------------
@@ -221,7 +221,7 @@ h6 {
 
 .book-a-table-btn:hover {
   background: #cda45e;
-  color: #fff;
+  color: #000000;
 }
 
 @media (max-width: 992px) {
@@ -899,16 +899,17 @@ section {
   list-style: none;
   text-align: center;
   border-radius: 50px;
+  
 }
 
 .menu #menu-flters li {
   cursor: pointer;
   display: inline-block;
   padding: 8px 12px 10px 12px;
-  font-size: 16px;
+  font-size: 28px;
   font-weight: 500;
   line-height: 1;
-  color: #fff;
+  color: rgb(255, 255, 255);
   margin-bottom: 10px;
   transition: all ease-in-out 0.3s;
   border-radius: 50px;
@@ -917,7 +918,7 @@ section {
 
 .menu #menu-flters li:hover,
 .menu #menu-flters li.filter-active {
-  color: #cda45e;
+  color: #d1d15a;
 }
 
 .menu #menu-flters li:last-child {
@@ -941,6 +942,7 @@ section {
   display: flex;
   justify-content: space-between;
   position: relative;
+  font-size: 25px;
 }
 
 .menu .menu-content::after {
@@ -9878,7 +9880,7 @@ a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
-  color: #3e64ff; }
+  color: #d0a65f; }
   a:hover, a:focus {
     text-decoration: none !important;
     outline: none !important;
