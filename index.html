@@ -52,7 +52,7 @@
 
       <div class="contact-info d-flex align-items-center text-center">
         <i class="bi bi-phone d-flex align-items-center"><span><a href="tel:01555384464" style="color:#d0a65f"> 01555384464</a></span></i>
-        <!-- <i class="bi bi-clock d-flex align-items-center ms-4"><span> Mon-Sat: 11AM - 23PM</span></i> -->
+        <i class="bi bi-geo-alt d-flex align-items-center ms-4"><span><a href="https://maps.app.goo.gl/QpjJq8JHDQmneQ777" style="color:#d0a65f"> Our Location</a></span></i>
       </div>
 
       <!-- <div class="languages d-none d-md-flex align-items-center">
@@ -69,40 +69,10 @@
   <header id="header" class="fixed-top d-flex align-items-cente">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
 
-      <h1 class="logo me-auto me-lg-0"><a href="index.html"><img src="munchieslogo.png" alt="logo">Munchies Restaurant</a></h1>
+      <h1 class="logo me-auto me-lg-0"><a href="index.html"><img src="munchieslogo.png" alt="logo">The Munchies</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
-      <nav id="navbar" class="navbar order-last order-lg-0">
-        <!-- <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#menu">Menu</a></li>
-          <li><a class="nav-link scrollto" href="#specials">Specials</a></li>
-          <li><a class="nav-link scrollto" href="#events">Events</a></li>
-          <li><a class="nav-link scrollto" href="#chefs">Chefs</a></li>
-          <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-        </ul> -->
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
       <a href="tel:01555384464" class="book-a-table-btn scrollto d-none d-lg-flex">Order Now</a>
 
 
@@ -154,6 +124,21 @@
 	        </div>
         </div>
       </div>
+
+      <div class="slider-item js-fullheight" style="background-image:url(assets/img/pics/16.jpg);">
+      	<div class="overlay"></div>
+        <div class="container">
+          <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
+	          <div class="col-md-12 ftco-animate">
+	          	<div class="text w-100 text-center">
+	          		<h2></h2>
+		            <h1 class="mb-3"></h1>
+	            </div>
+	          </div>
+	        </div>
+        </div>
+      </div>
+
     </div>
 
     <script src="js/jquery.min.js"></script>
@@ -584,7 +569,7 @@
           <div class="col-lg-4 col-md-4"></div>
           <div class="col-lg-4 col-md-4 align-items-center text-center">
             <a href="tel:01555384464">
-            <input type="submit" value="Order Now" class="book-a-table-btn text-center" style="background-color:black"></input>
+            <input type="submit" value="Order Now" class="book-a-table-btn text-center" id="button1" style="background-color:black;" />
         </div>
         <div class="col-lg-4 col-md-4"></div>
         </div>
@@ -662,21 +647,8 @@
 
         <div class="row g-0">
 
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="assets/img/pics/3.jpg" class="gallery-lightbox" data-gall="gallery-item">
-                <img src="assets/img/pics/3.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
 
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="assets/img/pics/1.jpg" class="gallery-lightbox" data-gall="gallery-item">
-                <img src="assets/img/pics/1.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
+
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
@@ -754,6 +726,14 @@
             <div class="gallery-item">
               <a href="assets/img/pics/13.jpg" class="gallery-lightbox" data-gall="gallery-item">
                 <img src="assets/img/pics/13.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/pics/1.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/pics/1.jpg" alt="" class="img-fluid">
               </a>
             </div>
           </div>
@@ -869,7 +849,7 @@
         <div class="row">
           <div class="col-lg-6 col-md-6">
             <div class="footer-info">
-              <h3>Munchies</h3>
+              <h3>The Munchies</h3>
               <p>
                 5 El-Shaheed Tayar Mahmoud Shakir Abd El-Moneim,<br>
                 Ezbet Saad, Sidi Gaber, Alexandria Governorate<br><br>
@@ -914,7 +894,9 @@
   </footer><!-- End Footer -->
 
   <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="tel:01555384464" class="back-to-top d-flex align-items-center justify-content-center"><i>Order Now</i></a>
+
+  <!-- <a href="tel:01555384464" class="back-to-top d-flex align-items-center justify-content-lg-between"><i class="bi bi-phone"></i></a> -->
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/aos/aos.js"></script>
