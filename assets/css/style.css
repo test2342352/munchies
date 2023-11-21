@@ -1341,7 +1341,6 @@ section {
 
 .gallery .gallery-item img {
   transition: all ease-in-out 0.4s;
-
 }
 
 .gallery .gallery-item:hover img {
